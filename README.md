@@ -1,77 +1,162 @@
+# Personal Portfolio Website
 
-<h2 align="left">Hai 👋, I am Dimas Toriq Sibarani <br>Javascript Developer | Expertise in React & Node.js | Specialized in Web Development</h2>
+A personal portfolio website built to showcase my background, projects, technical skills, and experience as a Junior Frontend Developer.
 
-###
+The website is designed with a clean and responsive interface, featuring interactive components and a dark/light theme to provide a comfortable browsing experience across different devices.
 
-<div align="center">
-</div>
+## Overview
 
-###
+This portfolio serves as a central place to introduce myself, highlight selected projects, and demonstrate my growing interest in frontend development and user interface design.
 
-<br clear="both">
+It is built using React and Vite, with Bootstrap 5 for responsive layouts and reusable UI components.
 
-<img align="right" height="150" src="https://i.pinimg.com/originals/01/7e/52/017e526e6aa8fb6346a671ebd6e83c1a.gif"  />
+## Features
 
-###
+- **Responsive Design** – Adapts to different screen sizes and devices.
+- **Dark & Light Mode** – Switch between dark and light themes.
+- **Project Showcase** – Display selected projects with image previews, descriptions, and external links.
+- **Technology Showcase** – Highlight technologies and development tools.
+- **Contact Section** – Provide direct links to professional and social profiles.
+- **Dynamic Content Management** – Portfolio content is organized in a centralized JSON file for easier updates.
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="30" alt="express logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="30" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="30" alt="googlecloud logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" alt="php logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" height="30" alt="trello logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" height="30" alt="redux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="30" alt="npm logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="30" alt="nginx logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
-</div>
+## Tech Stack
 
-###
+| Technology | Purpose |
+|---|---|
+| React.js | Building reusable UI components |
+| JavaScript | Application logic and interactivity |
+| Vite | Development server and build tooling |
+| Bootstrap 5 | Responsive layout and styling |
+| CSS3 | Custom styling and visual presentation |
+| Swiper.js | Interactive project image sliders |
+| React Icons | Icon components |
+| Git & GitHub | Version control and source code management |
 
-<div align="left">
-  <a href="https://www.instagram.com/dimmtoriq?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-  </a>
-  <a href="dimmts19@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/dimasts/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-</div>
+## Project Structure
 
-###
+```text
+portfolio/
+├── public/
+│   └── assets/
+│       ├── project-images/
+│       └── resume.pdf
+│
+├── src/
+│   ├── component/
+│   │   ├── Navbar/
+│   │   ├── Header/
+│   │   ├── Project/
+│   │   ├── Technology/
+│   │   ├── Contact/
+│   │   └── Footer/
+│   │
+│   ├── jsonData/
+│   │   └── data.json
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── package.json
+└── vite.config.js
+```
 
-<p align="left">Hallo teman teman semua berikut merupakan tamplate portofolio yang sudah saya buat , Terima Kasih ✨</p>
+## Getting Started
 
-<img width="944" alt="Untitled (5)" src="https://github.com/HaiIamD/PortofolioDimas/assets/95232841/5c5fb477-1917-4f12-954f-9c7ffe437763">
+Follow these steps to run the project locally.
 
-###
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js
+- npm
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone <your-repository-url>
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd <project-folder>
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open the local URL provided by Vite in your browser.
+
+### Production Build
+
+To generate an optimized production build:
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Customization
+
+Most portfolio content can be updated through:
+
+```text
+src/jsonData/data.json
+```
+
+This file contains the main content for:
+
+- Personal information and introduction
+- Project descriptions and image paths
+- Technology and tools
+- Navigation links
+- Contact information
+
+Project images, profile pictures, and other static assets are stored in:
+
+```text
+public/assets/
+```
+
+## Project Goals
+
+Through this project, I aim to:
+
+- Strengthen my understanding of React component-based development.
+- Practice building responsive and interactive user interfaces.
+- Improve code organization and maintainability.
+- Apply frontend development concepts through a practical project.
+- Continuously improve my skills in modern web development.
+
+## Author
+
+**Muhammad Haykal Qadhafi**
+
+Junior Frontend Developer focused on JavaScript and UI Development.
+
+- GitHub: [@haykalqadhf](https://github.com/haykalqadhf)
+- LinkedIn: [Haykal Qadhafi](https://www.linkedin.com/in/haykal-qadhafi/)
+- Instagram: [@kalqadhf](https://www.instagram.com/kalqadhf/)
+
+---
+
+*Built with React, curiosity, and continuous learning.*
