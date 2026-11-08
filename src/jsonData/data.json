@@ -1,0 +1,79 @@
+{
+  "navbar": { "title": "kal's" },
+
+  "header": {
+    "nameHeader": "Muhammad Haykal Qadhafi",
+    "titleHeader": "A Junior Frontend Developer focused on JavaScript and UI Development",
+    "imageHeader": "/assets/fotopage.jpg",
+    "userName": "Haykal",
+    "strength": "Implementing clean and efficient code practices to optimize website performance.",
+    "resume": "/assets/resume.pdf",
+    "description": "Information Technology graduate from Telkom University Jakarta with experience in application development and UI/UX design through academic projects. Currently strengthening JavaScript fundamentals while exploring React.js and Tailwind CSS to pursue Frontend Development. Interested in building responsive, functional web applications with a strong focus on user-centered design and expanding my knowledge of modern web technologies, including Next.js and TypeScript",
+    "complateProject": "7",
+    "proficientInExpertise": "10"
+  },
+
+  "project": [
+    {
+      "image": [
+          "/assets/webportopersonalproject1.png",
+        "/assets/webportopersonalproject2.png",
+        "/assets/webportopersonalproject3.png",
+        "/assets/webportopersonalproject4.png",
+        "/assets/webportopersonalproject5.png",
+        "/assets/webportopersonalproject6.png"
+      ],
+      "title": "M_H_Q.SYS: Dual-Persona Interactive Portfolio",
+      "technology": "React 19 | Vite | Tailwind CSS v4 | Framer Motion | ",
+      "description": "An interactive portfolio website themed around a dual-persona system. Visitors switch between two modes: a Full Stack Developer view (Cobalt Cyan) and a Data Analyst view (Crimson Red). Each mode has its own color theme, copy, skills and project descriptions. It includes an in-browser terminal CLI, a live system telemetry HUD, a skills radar chart, a project detail modal, a background music jukebox, and an animated mascot companion.",
+      "link": "https://project-portofolio-black.vercel.app/"
+    },
+    {
+      "image": [  "/assets/marketpulse1.png",
+        "/assets/marketpulse2.png",
+        "/assets/marketpulse3.png",
+        "/assets/marketpulse4.png"],
+      "title": "Market Pulse (In Development).",
+      "technology": "React | Vite | Flask | Auto-ARIMA",
+      "description": "An interactive cryptocurrency analytics dashboard featuring historical market data integration and experimental price forecasting using Auto-ARIMA. Built to explore time-series analysis and full-stack application development in highly volatile financial markets.",
+      "link":  "https://github.com/haykalqadhf/market-pulse-portofolio.git"
+    },
+    {
+      "image": ["/assets/medease1.png", "/assets/medease2.png"],
+      "title": "MedEase.",
+      "technology": "Figma | UI/UX Design",
+      "description": "A health consultation app that offers doctor consultation services. It has several features such as consultation via video call, voice call, and pharmacy.",
+      "link":  "https://www.figma.com/design/W4lUTmPdIcHH3zSJLX4DyO/MedEase?node-id=3-3&t=WNpbUQ1MjQEmuwIi-1"
+    }
+  ],
+
+  "tools": [
+    { "name": "React", "image": "/assets/officialreact.png" },
+    { "name": "Flutter", "image": "/assets/officialflutter.png" },
+    { "name": "Grafana", "image": "/assets/officialgrafana.png" },
+    { "name": "Node Js", "image": "/assets/officialnodejs.png" },
+    { "name": "Framer Motion", "image": "/assets/officialframermotion.jpg" },
+    { "name": "Python", "image": "/assets/python.png" },
+    { "name": "Javascript", "image": "/assets/officialjs.png" },
+    { "name": "Figma", "image": "/assets/figma.png" },
+    { "name": "Google Colab", "image": "/assets/officialgooglecolab.png" },
+    { "name": "Git", "image": "/assets/git.png" },
+    { "name": "NPM", "image": "/assets/npm.png" },
+    { "name": "Postman", "image": "/assets/postman.png" },
+    { "name": "MySQL", "image": "/assets/mysql.png" },
+    { "name": "Power BI", "image": "/assets/officialpowerbi.png" },
+    { "name": "Vs Code", "image": "/assets/vscode.png" },
+    { "name": "Vite", "image": "/assets/vite.png" },
+    { "name": "TailwindCSS", "image": "/assets/officialtailwndcss.png" },
+    { "name": "Github", "image": "/assets/github.png" },
+    { "name": "Google Cloud", "image": "/assets/googlecloud.png" },
+    { "name": "PostgreSQL", "image": "/assets/officialpostgreSQL.png" }
+  ],
+
+  "contact": {
+    "linkedIn": "www.linkedin.com/in/haykal-qadhafi",
+    "gmail": "haykalqadhf20@gmail.com",
+    "instagram": "https://www.instagram.com/kalqadhf/",
+    "github": "https://github.com/haykalqadhf"
+  }
+}
