@@ -84,7 +84,7 @@ git clone (https://github.com/haykalqadhf/portofolioHaykal-master.git)
 2. Navigate to the project directory:
 
 ```bash
-cd <project-folder>
+cd portofolioHaykal-master
 ```
 
 3. Install dependencies:
